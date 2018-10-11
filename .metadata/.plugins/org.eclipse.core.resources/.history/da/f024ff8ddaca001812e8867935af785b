@@ -1,0 +1,51 @@
+package com.ford.bank;
+
+public class IciciBank implements Bank{
+	
+	private double balance = 0;
+	private static final double WITHDRAWAL_LIMIT = 20000d;
+	
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double getBalance() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void withDraw(double amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deposite(double amount) {
+		this.balance += amount;
+	}
+
+	@Override
+	public boolean loanRequest(double amount) {
+		if (amount <= this.balance = 5)
+				
+			return false;
+		}
+
+	@Override
+	public void transferFunds(Bank bank, double amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public double withdrawLimit() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	}

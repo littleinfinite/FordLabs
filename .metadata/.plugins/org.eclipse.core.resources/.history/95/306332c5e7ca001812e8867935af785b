@@ -1,0 +1,31 @@
+package com.ford.bank;
+
+public class IciciBank extends BaseBank{
+
+	private static final double WITHDRAWAL_LIMIT = 20000d;
+	
+		
+	public IciciBank (Address address) {
+		super(address);
+		this.name = "Icici";
+		
+	}
+
+	@Override
+	public boolean loanRequest(double amount) {
+		if (amount <= this.balance * 5)
+				return true;
+		else
+				return false;
+		
+		}
+	@Override
+	public double withdrawLimit() {
+		
+		return WITHDRAWAL_LIMIT;
+	}
+		
+	}
+
+	
+	

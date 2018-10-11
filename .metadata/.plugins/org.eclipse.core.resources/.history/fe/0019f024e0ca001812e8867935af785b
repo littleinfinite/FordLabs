@@ -1,0 +1,23 @@
+package com.ford.bank;
+
+public abstract class BaseBank implements Bank {
+	
+	protected double balance = 0;
+	protected String name;
+	protected Address address;
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	@Override
+	public String Address() {
+		// TODO Auto-generated method stub
+		return null;
+
+
+	}
+
+}

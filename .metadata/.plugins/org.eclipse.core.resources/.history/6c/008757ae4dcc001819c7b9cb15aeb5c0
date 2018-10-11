@@ -1,0 +1,6 @@
+package test;
+package com.ford.generics;
+
+public class Generics {
+
+}

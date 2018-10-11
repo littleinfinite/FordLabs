@@ -1,0 +1,45 @@
+package test;
+
+
+
+
+public class Main {
+	
+	public static void main(String[] args)
+	{
+		float N;
+		float a=0,b=0,c=0;
+		Scanner in =new Scanner(System.in);
+		
+		System.out.println("Enter the value");
+		N= in.nextInt();
+		
+		float div=N/3;
+		
+		a=b=c=div;
+		
+		if(div%3==0)
+		{
+			a--;
+			b--;
+			c+=2;
+
+		}
+		
+			
+		
+		System.out.println("First Value" +a);
+		System.out.println("Second Value" +b);
+		System.out.println("Third Value" +c);
+		
+		
+	}
+	public class String {
+		
+		String input1 = "Test";
+		String input2 = "test"; 
+		System.out.println(input1.equals(input2));
+
+
+	}
+}

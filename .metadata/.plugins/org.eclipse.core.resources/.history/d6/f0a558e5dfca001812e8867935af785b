@@ -1,0 +1,16 @@
+package com.ford.bank;
+
+public interface Bank {
+	
+	String getName();
+	Address
+	double getBalance();
+	void withDraw(double amount);
+	void deposite(double amount);
+	boolean loanRequest(double amount);
+	void transferFunds(Bank bank, double amount);
+	double withdrawLimit();
+	
+
+}
+

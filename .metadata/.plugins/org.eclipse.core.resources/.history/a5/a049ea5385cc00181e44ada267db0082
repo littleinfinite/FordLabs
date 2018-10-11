@@ -1,0 +1,20 @@
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+class CalculatorTest {
+
+	
+	@Test
+	void test() {
+		
+		Calculator calculator = new Calculator();
+		
+		double result = calculator.multiply(2.0, 3.0);
+		
+		assertEquals( 6.0 , 6.0, 0);
+	}
+
+}

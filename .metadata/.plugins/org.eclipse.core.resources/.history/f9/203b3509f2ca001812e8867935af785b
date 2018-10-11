@@ -1,0 +1,10 @@
+package test;
+
+public class String {
+	
+	String input1 = "Test";
+	String input2 = "test"; 
+	System.out.println(input1.equals(input2));
+
+
+}
